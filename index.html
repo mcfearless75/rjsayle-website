@@ -216,6 +216,15 @@
     @keyframes pulse-ring { 0%{box-shadow:0 0 0 0 rgba(3,105,161,0.4)} 70%{box-shadow:0 0 0 12px rgba(3,105,161,0)} 100%{box-shadow:0 0 0 0 rgba(3,105,161,0)} }
     .cta-pulse:hover { animation: pulse-ring 1s ease; }
 
+    /* Hero logo slow rotation */
+    @keyframes logo-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    .hero-logo-spin { animation: logo-spin 20s linear infinite; }
+    .hero-logo-spin:hover { animation-play-state: paused; cursor: pointer; }
+
+    /* Logo glow pulse */
+    @keyframes logo-glow { 0%,100%{filter:drop-shadow(0 0 16px rgba(249,115,22,0.5)) drop-shadow(0 0 32px rgba(29,78,216,0.3))} 50%{filter:drop-shadow(0 0 28px rgba(249,115,22,0.8)) drop-shadow(0 0 56px rgba(29,78,216,0.5))} }
+    .hero-logo-wrap { animation: logo-glow 4s ease-in-out infinite; }
+
     /* Focus styles */
     a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
       outline: 3px solid #0369A1; outline-offset: 2px; border-radius: 4px;
@@ -262,11 +271,7 @@
 
         <!-- Logo -->
         <a href="#home" class="flex items-center gap-3 cursor-pointer group" aria-label="R.J. Sayle Plumbing & Heating – go to homepage">
-          <svg width="38" height="46" viewBox="0 0 40 50" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-            <path d="M20 2 C20 2 3 19 3 32 C3 42.5 10.7 49 20 49 C29.3 49 37 42.5 37 32 C37 19 20 2 20 2Z" fill="#1d4ed8"/>
-            <path d="M20 43 C13.5 36 10.5 27.5 15.5 21 C16.8 26 18.5 24.5 20 19 C21.5 24.5 23.2 26 24.5 21 C29.5 27.5 26.5 36 20 43Z" fill="#F97316"/>
-            <ellipse cx="15" cy="13" rx="2.5" ry="3.5" fill="#93c5fd" opacity="0.7" transform="rotate(-20 15 13)"/>
-          </svg>
+          <img src="logo.avif" alt="R.J. Sayle Plumbing & Heating logo" width="42" height="42" class="rounded-full object-contain group-hover:scale-105 transition-transform duration-200" loading="eager">
           <div>
             <div class="text-white font-heading font-bold text-base lg:text-lg leading-tight tracking-wide">R.J. SAYLE</div>
             <div class="text-blue-300 text-xs font-heading tracking-widest uppercase">Plumbing &amp; Heating</div>
@@ -381,7 +386,28 @@
       </div>
 
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
-        <div class="max-w-3xl">
+        <div class="grid lg:grid-cols-2 gap-12 lg:gap-6 items-center">
+
+        <!-- Big rotating logo — right column on desktop, above text on mobile -->
+        <div class="flex justify-center lg:order-2 mb-8 lg:mb-0">
+          <div class="hero-logo-wrap relative">
+            <!-- Outer ring -->
+            <div class="absolute inset-0 rounded-full border-2 border-white/10 hero-logo-spin" style="width:320px;height:320px;top:50%;left:50%;transform:translate(-50%,-50%) rotate(0deg);animation:logo-spin 20s linear infinite;" aria-hidden="true">
+              <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3 h-3 rounded-full bg-flame"></div>
+              <div class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-2 h-2 rounded-full bg-brand2"></div>
+              <div class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 w-2 h-2 rounded-full bg-white/40"></div>
+              <div class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 w-2 h-2 rounded-full bg-white/40"></div>
+            </div>
+            <!-- Second ring counter-rotating -->
+            <div class="absolute inset-0 rounded-full border border-brand/30" style="width:260px;height:260px;top:50%;left:50%;transform:translate(-50%,-50%);animation:logo-spin 14s linear infinite reverse;" aria-hidden="true"></div>
+            <!-- Logo image -->
+            <div class="relative w-48 h-48 lg:w-56 lg:h-56 rounded-full flex items-center justify-center bg-white/5 backdrop-blur-sm border border-white/10 shadow-2xl" style="box-shadow:0 0 60px rgba(249,115,22,0.2),0 0 120px rgba(29,78,216,0.15)">
+              <img src="logo.avif" alt="R.J. Sayle Plumbing & Heating official logo" class="w-36 h-36 lg:w-44 lg:h-44 object-contain drop-shadow-2xl" loading="eager">
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:order-1 max-w-3xl">
           <div class="inline-flex items-center gap-2 bg-brand/20 border border-brand/30 text-blue-300 text-xs font-heading font-bold px-3 py-1.5 rounded-full mb-6 uppercase tracking-wider">
             <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
             Gas Safe Registered
@@ -433,6 +459,7 @@
             </div>
           </div>
         </div>
+        </div><!-- end grid -->
       </div>
 
       <!-- Bottom wave -->
@@ -682,14 +709,10 @@
                 <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="pipes" width="60" height="60" patternUnits="userSpaceOnUse"><circle cx="30" cy="30" r="20" fill="none" stroke="#60a5fa" stroke-width="2"/><line x1="0" y1="30" x2="60" y2="30" stroke="#60a5fa" stroke-width="2"/><line x1="30" y1="0" x2="30" y2="60" stroke="#60a5fa" stroke-width="2"/></pattern></defs><rect width="100%" height="100%" fill="url(#pipes)"/></svg>
               </div>
               <div class="relative text-center px-8">
-                <svg width="80" height="96" viewBox="0 0 40 50" xmlns="http://www.w3.org/2000/svg" class="mx-auto mb-4" aria-hidden="true">
-                  <path d="M20 2 C20 2 3 19 3 32 C3 42.5 10.7 49 20 49 C29.3 49 37 42.5 37 32 C37 19 20 2 20 2Z" fill="#1d4ed8"/>
-                  <path d="M20 43 C13.5 36 10.5 27.5 15.5 21 C16.8 26 18.5 24.5 20 19 C21.5 24.5 23.2 26 24.5 21 C29.5 27.5 26.5 36 20 43Z" fill="#F97316"/>
-                  <ellipse cx="15" cy="13" rx="2.5" ry="3.5" fill="#93c5fd" opacity="0.7" transform="rotate(-20 15 13)"/>
-                </svg>
+                <img src="logo.avif" alt="R.J. Sayle Plumbing & Heating" class="mx-auto mb-4 w-32 h-32 object-contain drop-shadow-2xl" loading="lazy">
                 <p class="text-white font-heading font-bold text-xl">R.J. Sayle</p>
                 <p class="text-blue-300 font-body text-sm mt-1">Plumbing &amp; Heating Ltd</p>
-                <p class="text-gray-400 font-body text-xs mt-3">Replace this block with a real photo of your work</p>
+                <p class="text-gray-400 font-body text-xs mt-3">Replace this panel with a real photo of your work</p>
               </div>
             </div>
 
@@ -1090,10 +1113,7 @@
         <!-- Brand -->
         <div class="lg:col-span-2">
           <div class="flex items-center gap-3 mb-4">
-            <svg width="32" height="38" viewBox="0 0 40 50" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M20 2 C20 2 3 19 3 32 C3 42.5 10.7 49 20 49 C29.3 49 37 42.5 37 32 C37 19 20 2 20 2Z" fill="#1d4ed8"/>
-              <path d="M20 43 C13.5 36 10.5 27.5 15.5 21 C16.8 26 18.5 24.5 20 19 C21.5 24.5 23.2 26 24.5 21 C29.5 27.5 26.5 36 20 43Z" fill="#F97316"/>
-            </svg>
+            <img src="logo.avif" alt="R.J. Sayle Plumbing & Heating logo" width="36" height="36" class="rounded-full object-contain" loading="lazy">
             <div>
               <p class="text-white font-heading font-bold text-base">R.J. SAYLE</p>
               <p class="text-blue-400 text-xs font-heading tracking-widest uppercase">Plumbing &amp; Heating</p>
