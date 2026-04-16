@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>R.J. Sayle Plumbing &amp; Heating | Wirral &amp; Nationwide | Gas Safe Registered</title>
-  <meta name="description" content="R.J. Sayle Plumbing &amp; Heating Ltd – Gas Safe registered emergency plumber and heating engineer on the Wirral. Boiler installations, servicing, power flushing, unvented cylinders, air source heat pumps, landlord gas safety certificates. Fixed-price contracts. Call 07450 237593.">
+  <title>R.J. Sayle Plumbing &amp; Heating | Wirral | Gas Safe</title>
+  <meta name="description" content="Gas Safe registered emergency plumber &amp; heating engineer on the Wirral. Boiler installations, servicing, power flushing, landlord gas safety certificates. Fixed-price contracts. Call 07450 237593.">
+  <link rel="icon" href="logo.avif" type="image/avif">
+  <link rel="apple-touch-icon" href="logo.avif">
   <meta name="keywords" content="plumber Wirral, emergency plumber Wirral, heating engineer Wirral, boiler installation Wirral, boiler service Wirral, Gas Safe plumber Wirral, power flush Wirral, unvented cylinder Wirral, air source heat pump Wirral, landlord gas safety certificate Wirral, commercial plumbing Wirral, plumber Heswall, plumber West Kirby, plumber Bebington, plumber Birkenhead, plumber Wallasey, plumber Hoylake, RJ Sayle">
   <link rel="canonical" href="https://www.rjsayleplumbing-heating.com/">
 
@@ -37,13 +39,14 @@
   <meta name="geo.region" content="GB-WRT">
   <meta name="geo.placename" content="Wirral, Merseyside">
 
-  <!-- Fonts -->
+  <!-- Fonts — non-render-blocking -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet"></noscript>
 
   <!-- Tailwind CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com" defer></script>
   <script>
     tailwind.config = {
       theme: {
@@ -322,8 +325,8 @@
     <!-- =========================================================
          TRUST BAR
     ========================================================= -->
-    <div class="bg-white border-b border-gray-100 py-3">
-      <div class="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-center gap-6 lg:gap-12">
+    <div class="bg-white border-b border-gray-100 py-2">
+      <div class="max-w-7xl mx-auto px-4 flex items-center justify-center gap-4 lg:gap-12 overflow-x-auto">
 
         <!-- Gas Safe -->
         <div class="flex items-center gap-2.5">
@@ -359,8 +362,8 @@
         <!-- Divider -->
         <div class="hidden sm:block w-px h-8 bg-gray-200" aria-hidden="true"></div>
 
-        <!-- Fixed Price -->
-        <div class="flex items-center gap-2.5">
+        <!-- Fixed Price — hidden on mobile -->
+        <div class="hidden sm:flex items-center gap-2.5">
           <svg class="w-7 h-7 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
           <span class="font-heading font-bold text-gray-800 text-sm">Fixed-Price Contracts</span>
         </div>
@@ -368,8 +371,8 @@
         <!-- Divider -->
         <div class="hidden lg:block w-px h-8 bg-gray-200" aria-hidden="true"></div>
 
-        <!-- Nationwide -->
-        <div class="flex items-center gap-2.5">
+        <!-- Nationwide — hidden on mobile -->
+        <div class="hidden sm:flex items-center gap-2.5">
           <svg class="w-7 h-7 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
           <span class="font-heading font-bold text-gray-800 text-sm">Wirral &amp; Nationwide</span>
         </div>
