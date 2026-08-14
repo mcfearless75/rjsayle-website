@@ -10,7 +10,7 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 
-# AI answer engines â€” explicitly permitted (we want to be cited)
+# AI answer engines — explicitly permitted (we want to be cited)
 User-agent: GPTBot
 Allow: /
 User-agent: OAI-SearchBot
