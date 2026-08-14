@@ -1,3 +1,7 @@
+> **SUPERSEDED (14 Aug 2026).** Use `04-google-business-profile-plan.md` in this
+> folder instead. That version is verified against current Google policy — this one
+> recommends categories and a service-area setup that have since changed.
+
 # Google My Business Optimisation Guide
 ## R.J. Sayle Plumbing & Heating Ltd
 
