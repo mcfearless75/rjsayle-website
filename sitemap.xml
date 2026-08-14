@@ -1,116 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.rjsayleplumbing-heating.com/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://rjsayleplumbing-heating.com/</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.rjsayleplumbing-heating.com/services.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://rjsayleplumbing-heating.com/services.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.rjsayleplumbing-heating.com/contact.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://rjsayleplumbing-heating.com/about.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rjsayleplumbing-heating.com/contact.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.rjsayleplumbing-heating.com/about.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://rjsayleplumbing-heating.com/gallery.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.rjsayleplumbing-heating.com/gallery.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://rjsayleplumbing-heating.com/commercial-plumbing-heating-wirral.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rjsayleplumbing-heating.com/commercial-plumbing-heating-wirral.html</loc>
-    <lastmod>2026-06-25</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.rjsayleplumbing-heating.com/landlord-services-wirral.html</loc>
-    <lastmod>2026-06-25</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://rjsayleplumbing-heating.com/landlord-services-wirral.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.rjsayleplumbing-heating.com/areas/index.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://rjsayleplumbing-heating.com/boiler-installation-wirral.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.rjsayleplumbing-heating.com/areas/wirral.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://rjsayleplumbing-heating.com/boiler-repair-wirral.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.rjsayleplumbing-heating.com/areas/heswall.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://rjsayleplumbing-heating.com/emergency-plumber-wirral.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.rjsayleplumbing-heating.com/areas/west-kirby.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://rjsayleplumbing-heating.com/gas-safety-certificate-wirral.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.rjsayleplumbing-heating.com/areas/bebington.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://rjsayleplumbing-heating.com/boiler-servicing-wirral.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.rjsayleplumbing-heating.com/areas/birkenhead.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://rjsayleplumbing-heating.com/power-flushing-wirral.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.rjsayleplumbing-heating.com/areas/wallasey.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://rjsayleplumbing-heating.com/unvented-cylinder-wirral.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.rjsayleplumbing-heating.com/areas/hoylake.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://rjsayleplumbing-heating.com/radiators-and-central-heating-wirral.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.rjsayleplumbing-heating.com/areas/neston.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://rjsayleplumbing-heating.com/combi-boiler-conversion-wirral.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.rjsayleplumbing-heating.com/areas/ellesmere-port.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://rjsayleplumbing-heating.com/boiler-upgrade-scheme-wirral.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.rjsayleplumbing-heating.com/areas/liverpool.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://rjsayleplumbing-heating.com/areas/index.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.rjsayleplumbing-heating.com/areas/nationwide.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://rjsayleplumbing-heating.com/areas/wirral.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rjsayleplumbing-heating.com/areas/heswall.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rjsayleplumbing-heating.com/areas/west-kirby.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rjsayleplumbing-heating.com/areas/bebington.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rjsayleplumbing-heating.com/areas/birkenhead.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rjsayleplumbing-heating.com/areas/wallasey.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rjsayleplumbing-heating.com/areas/hoylake.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rjsayleplumbing-heating.com/areas/neston.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rjsayleplumbing-heating.com/areas/ellesmere-port.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rjsayleplumbing-heating.com/areas/liverpool.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rjsayleplumbing-heating.com/areas/nationwide.html</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

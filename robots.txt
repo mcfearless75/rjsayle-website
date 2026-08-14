@@ -1,37 +1,53 @@
+# R.J. Sayle Plumbing & Heating Ltd
 User-agent: *
 Allow: /
 
-User-agent: GPTBot
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
+# Search
 User-agent: Googlebot
 Allow: /
-
 User-agent: Bingbot
 Allow: /
+User-agent: DuckDuckBot
+Allow: /
 
+# AI answer engines — explicitly permitted (we want to be cited)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: Amazonbot
+Allow: /
+User-agent: meta-externalagent
+Allow: /
 User-agent: Bytespider
 Allow: /
-
 User-agent: cohere-ai
 Allow: /
+User-agent: YouBot
+Allow: /
+User-agent: Diffbot
+Allow: /
+User-agent: CCBot
+Allow: /
 
-Sitemap: https://www.rjsayleplumbing-heating.com/sitemap.xml
+Sitemap: https://rjsayleplumbing-heating.com/sitemap.xml
