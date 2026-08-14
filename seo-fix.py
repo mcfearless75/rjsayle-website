@@ -103,6 +103,7 @@ PAGES = {
     "radiators-and-central-heating-wirral.html": ("Radiator Installation", "Wirral", "WebPage"),
     "combi-boiler-conversion-wirral.html": ("Combi Boiler Conversion", "Wirral", "WebPage"),
     "boiler-upgrade-scheme-wirral.html":   ("Boiler Upgrade Scheme", "Wirral", "WebPage"),
+    "boiler-selector-wirral.html":         ("Boiler Selector Tool", "Wirral", "WebPage"),
     "areas/index.html":                    ("Areas We Cover", None, "CollectionPage"),
     "areas/wirral.html":                   ("Wirral", "Wirral", "WebPage"),
     "areas/heswall.html":                  ("Heswall", "Heswall", "WebPage"),
