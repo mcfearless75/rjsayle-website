@@ -30,7 +30,7 @@ PHONE_DISPLAY = "07450 237593"
 EMAIL          = "info@rjsayleplumbing-heating.com"  # must have a live mailbox
 DIRECTOR_NAME  = "Russ Sayle"                        # known as; legal name below
 DIRECTOR_LEGAL = "Russell James Sayle"               # per Companies House
-GAS_SAFE_NUM   = ""      # e.g. "123456"       — omitted if blank
+GAS_SAFE_NUM   = "954946"  # verified 14 Aug 2026 via gassaferegister.co.uk business search by phone 07450237593 -- 1 exact match, R.J.Sayle Plumbing & Heating Ltd, Registered
 COMPANY_NUMBER = "14323418"        # Companies House, verified 14 Aug 2026
 LEGAL_NAME     = "R.J Sayle Plumbing & Heating Services Ltd"   # exact registered name
 REG_OFFICE     = "113 Wallasey Road, Wallasey, CH44 2AA"       # public record
@@ -46,10 +46,11 @@ SAME_AS = [
     # "https://www.checkatrade.com/trades/...",
 ]
 
-# aggregateRating: OFF until the real GBP count is verified.
-# Set both to reinstate a single, sitewide-consistent figure.
-RATING_VALUE = None      # e.g. "5.0"
-REVIEW_COUNT = None      # e.g. "27"
+# aggregateRating: verified against the Google Business Profile 14 Aug 2026.
+# Update both together if the GBP figure changes -- never let them drift
+# out of sync with what's actually shown on Google.
+RATING_VALUE = "5.0"
+REVIEW_COUNT = "28"
 
 HOURS = [{"@type": "OpeningHoursSpecification",
           "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
