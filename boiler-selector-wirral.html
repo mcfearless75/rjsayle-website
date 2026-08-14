@@ -3,22 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>New Boiler Installation Wirral | Gas Safe | R.J. Sayle</title>
-  <meta name="description" content="Combi, system & conventional boiler installation across Wirral. 20+ years, Gas Safe registered, the owner does the work. Free fixed quote — call 07450 237593.">
+  <title>Boiler Selector Tool Wirral | Which Boiler Do You Need? | R.J. Sayle</title>
+  <meta name="description" content="Answer 4 quick questions to find out whether a combi, system or conventional boiler suits your home, then call or get a free fixed quote. No pricing guesswork.">
   <link rel="icon" href="logo.avif" type="image/avif">
   <link rel="apple-touch-icon" href="logo.avif">
-  <link rel="canonical" href="https://rjsayleplumbing-heating.com/boiler-installation-wirral.html">
+  <link rel="canonical" href="https://rjsayleplumbing-heating.com/boiler-selector-wirral.html">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="New Boiler Installation Wirral | Gas Safe | R.J. Sayle">
-  <meta property="og:description" content="Combi, system & conventional boiler installation across Wirral. 20+ years, Gas Safe registered, the owner does the work. Free fixed quote — call 07450 237593.">
-  <meta property="og:url" content="https://rjsayleplumbing-heating.com/boiler-installation-wirral.html">
+  <meta property="og:title" content="Boiler Selector Tool Wirral | Which Boiler Do You Need? | R.J. Sayle">
+  <meta property="og:description" content="Answer 4 quick questions to find out whether a combi, system or conventional boiler suits your home, then call or get a free fixed quote. No pricing guesswork.">
+  <meta property="og:url" content="https://rjsayleplumbing-heating.com/boiler-selector-wirral.html">
   <meta property="og:site_name" content="R.J. Sayle Plumbing &amp; Heating">
   <meta property="og:image" content="https://rjsayleplumbing-heating.com/og-image.jpg">
   <meta property="og:locale" content="en_GB">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="New Boiler Installation Wirral | Gas Safe | R.J. Sayle">
-  <meta name="twitter:description" content="Combi, system & conventional boiler installation across Wirral. 20+ years, Gas Safe registered, the owner does the work. Free fixed quote — call 07450 237593.">
+  <meta name="twitter:title" content="Boiler Selector Tool Wirral | Which Boiler Do You Need? | R.J. Sayle">
+  <meta name="twitter:description" content="Answer 4 quick questions to find out whether a combi, system or conventional boiler suits your home, then call or get a free fixed quote. No pricing guesswork.">
   <meta name="twitter:image" content="https://rjsayleplumbing-heating.com/og-image.jpg">
   <meta name="geo.region" content="GB-WRT">
   <meta name="geo.placename" content="Wirral, Merseyside">
@@ -40,14 +40,21 @@
     .service-card{transition:transform 0.25s ease,box-shadow 0.25s ease}
     .service-card:hover{transform:translateY(-6px);box-shadow:0 24px 48px rgba(3,105,161,0.14)}
     .hero-bg{background:linear-gradient(135deg,#0F172A 0%,#0c2340 60%,#0F172A 100%)}
-    .stats-bar{background:linear-gradient(90deg,#0369A1 0%,#0284C7 100%)}
     @keyframes pulse-ring{0%{box-shadow:0 0 0 0 rgba(3,105,161,0.4)}70%{box-shadow:0 0 0 12px rgba(3,105,161,0)}100%{box-shadow:0 0 0 0 rgba(3,105,161,0)}}
     .cta-pulse:hover{animation:pulse-ring 1s ease}
     a:focus-visible,button:focus-visible{outline:3px solid #0369A1;outline-offset:2px;border-radius:4px}
     @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}html{scroll-behavior:auto}}
     .faq-item summary{cursor:pointer;list-style:none}
     .faq-item summary::-webkit-details-marker{display:none}
-  </style>
+    .opt{cursor:pointer;user-select:none}
+    .opt input{position:absolute;opacity:0;width:0;height:0}
+    .opt-card{transition:border-color .15s ease,background-color .15s ease,box-shadow .15s ease}
+    .opt input:checked + .opt-card{border-color:#0369A1;background:#EFF8FF;box-shadow:0 0 0 2px rgba(3,105,161,0.25)}
+    .opt input:focus-visible + .opt-card{outline:3px solid #0369A1;outline-offset:2px}
+    .step{display:none}
+    .step.active{display:block}
+    .progress-dot{transition:background-color .2s ease,transform .2s ease}
+</style>
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="R.J. Sayle Plumbing &amp; Heating Ltd — Gas Safe registered plumber, Wirral">
@@ -341,10 +348,10 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://rjsayleplumbing-heating.com/boiler-installation-wirral.html#webpage",
-      "url": "https://rjsayleplumbing-heating.com/boiler-installation-wirral.html",
-      "name": "New Boiler Installation Wirral | Gas Safe | R.J. Sayle",
-      "description": "Combi, system & conventional boiler installation across Wirral. 20+ years, Gas Safe registered, the owner does the work. Free fixed quote — call 07450 237593.",
+      "@id": "https://rjsayleplumbing-heating.com/boiler-selector-wirral.html#webpage",
+      "url": "https://rjsayleplumbing-heating.com/boiler-selector-wirral.html",
+      "name": "Boiler Selector Tool Wirral | Which Boiler Do You Need? | R.J. Sayle",
+      "description": "Answer 4 quick questions to find out whether a combi, system or conventional boiler suits your home, then call or get a free fixed quote. No pricing guesswork.",
       "isPartOf": {
         "@id": "https://rjsayleplumbing-heating.com/#website"
       },
@@ -355,13 +362,13 @@
         "@id": "https://rjsayleplumbing-heating.com/#logo"
       },
       "breadcrumb": {
-        "@id": "https://rjsayleplumbing-heating.com/boiler-installation-wirral.html#breadcrumb"
+        "@id": "https://rjsayleplumbing-heating.com/boiler-selector-wirral.html#breadcrumb"
       },
       "inLanguage": "en-GB",
       "potentialAction": {
         "@type": "ReadAction",
         "target": [
-          "https://rjsayleplumbing-heating.com/boiler-installation-wirral.html"
+          "https://rjsayleplumbing-heating.com/boiler-selector-wirral.html"
         ]
       },
       "contentLocation": {
@@ -369,12 +376,12 @@
         "name": "Wirral"
       },
       "mainEntity": {
-        "@id": "https://rjsayleplumbing-heating.com/boiler-installation-wirral.html#faq"
+        "@id": "https://rjsayleplumbing-heating.com/boiler-selector-wirral.html#faq"
       }
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://rjsayleplumbing-heating.com/boiler-installation-wirral.html#breadcrumb",
+      "@id": "https://rjsayleplumbing-heating.com/boiler-selector-wirral.html#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -385,56 +392,48 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Boiler Installation",
-          "item": "https://rjsayleplumbing-heating.com/boiler-installation-wirral.html"
+          "name": "Boiler Selector Tool",
+          "item": "https://rjsayleplumbing-heating.com/boiler-selector-wirral.html"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://rjsayleplumbing-heating.com/boiler-installation-wirral.html#faq",
+      "@id": "https://rjsayleplumbing-heating.com/boiler-selector-wirral.html#faq",
       "isPartOf": {
-        "@id": "https://rjsayleplumbing-heating.com/boiler-installation-wirral.html#webpage"
+        "@id": "https://rjsayleplumbing-heating.com/boiler-selector-wirral.html#webpage"
       },
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How much does a new boiler cost in Wirral in 2026?",
+          "name": "Is the result an exact quote?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "There's no single fixed figure — it depends on the boiler type, whether it's a like-for-like swap or a conversion, and the condition of your existing pipework and controls. We give a free, no-obligation fixed quote after a proper survey, so you know the exact cost before any work starts. For an idea of what drives the price, see our boiler prices Wirral page."
+            "text": "No — it's a boiler type recommendation based on four quick answers, not a priced quote. We don't publish instant prices because the real cost depends on your existing pipework, controls and the property itself, which we can only assess properly on a survey. The tool gets you talking to us about the right thing, not a number pulled out of thin air."
           }
         },
         {
           "@type": "Question",
-          "name": "How long does a boiler installation take?",
+          "name": "How accurate is the recommendation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A straightforward like-for-like combi swap is typically completed in a single day. Jobs involving relocating the boiler, converting boiler type, or upgrading pipework and the flue route usually take longer — we'll give you a realistic timescale at the survey stage, before you commit to anything."
+            "text": "It's built on the same reasoning we use on site — bathroom count, mains pressure and property size are the biggest factors in choosing a boiler type. It's a genuinely useful starting point for most homes, but it can't measure your actual flow rate or inspect your pipework, so some answers come back as \"worth a quick chat\" rather than a firm pick. That's deliberate — we'd rather say that honestly than guess."
           }
         },
         {
           "@type": "Question",
-          "name": "Do I need to upgrade my radiators or pipework when I change boiler?",
+          "name": "What happens after I get my result?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Not always, but it's worth checking. If your system is old or has never been flushed, we'll usually recommend a power flush and a magnetic filter before fitting the new boiler, to protect it from sludge already in the system. Radiators and pipework are only replaced where they're genuinely undersized, damaged, or can't support the new boiler properly — we won't recommend work you don't need."
+            "text": "Call 07450 237593 or use the \"Get a Free Fixed Quote\" button to send your details through the contact page. Either way you'll speak to Russ Sayle directly — not a call centre — to arrange a survey. The survey confirms (or corrects) the tool's suggestion and is what the fixed price is based on."
           }
         },
         {
           "@type": "Question",
-          "name": "Will you register the installation with Gas Safe and Building Control?",
+          "name": "Do you install whichever boiler type the tool recommends?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. As a Gas Safe registered engineer, every gas boiler installation we complete is notified to Building Control through the Gas Safe scheme, and you're issued with a Building Regulations compliance certificate — there's nothing further you need to arrange yourself."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Should I still fit a gas boiler, or wait for a heat pump?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It's fully legal to fit a replacement gas boiler in an existing home today — the proposed 2035 phase-out for existing properties was dropped as part of the Warm Homes Plan in January 2026, so there's no deadline forcing a switch. A heat pump can be a good option for the right property, but if your current boiler needs replacing now, a gas boiler remains a legitimate, straightforward choice. We're happy to talk through both options."
+            "text": "We install combi, system and conventional boilers, plus unvented cylinders where a system boiler needs one. If the survey turns up something the tool couldn't know about — genuinely weak mains flow, an odd pipe run, a conservation-area constraint — we'll say so and explain why a different option suits your home better."
           }
         }
       ]
@@ -527,287 +526,253 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <div class="inline-flex items-center gap-2 bg-brand/20 border border-brand/30 text-blue-300 text-xs font-heading font-bold px-3 py-1.5 rounded-full mb-6 uppercase tracking-wider">
         <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-        Gas Safe Registered
+        Free 60-Second Tool
       </div>
-      <h1 class="text-3xl lg:text-5xl font-heading font-extrabold text-white mb-4">New Boiler Installation in <span class="text-brand2">Wirral</span> <span class="text-flame">— Fitted by a Gas Safe Engineer, Not a Sales Team</span></h1>
-      <p class="text-gray-300 font-body text-lg max-w-3xl mx-auto">Combi, system and conventional boiler installation across Wirral. No call centre, no commission-driven sales visit — Russ Sayle surveys the job, fits the boiler, and signs it off. 20+ years' experience, Gas Safe registered.</p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-        <a href="tel:07450237593" class="inline-flex items-center justify-center gap-2 bg-flame hover:bg-orange-500 text-white font-heading font-bold px-8 py-4 rounded-xl transition-colors duration-200 cta-pulse">
-          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-          07450 237593
-        </a>
-        <a href="contact.html" class="inline-flex items-center justify-center gap-2 border-2 border-white/30 hover:border-white text-white font-heading font-bold px-8 py-4 rounded-xl transition-all duration-200 hover:bg-white/10">Get a Free Fixed Quote</a>
-      </div>
+      <h1 class="text-3xl lg:text-5xl font-heading font-extrabold text-white mb-4">Which New Boiler Do You Need? <span class="text-brand2">Boiler Selector</span></h1>
+      <p class="text-gray-300 font-body text-lg max-w-3xl mx-auto">Answer four quick questions about your home and we'll tell you whether a combi, system or conventional boiler is the better starting point — then you can call or get a free fixed quote. No sign-up, no made-up prices.</p>
       <nav class="flex items-center justify-center gap-2 mt-8 font-body text-sm" aria-label="Breadcrumb">
         <a href="index.html" class="text-gray-400 hover:text-white transition-colors">Home</a>
         <span class="text-gray-600">/</span>
-        <span class="text-brand2 font-semibold">Boiler Installation</span>
+        <span class="text-brand2 font-semibold">Boiler Selector</span>
       </nav>
     </div>
   </div>
 
-  <!-- WHICH BOILER SUITS YOUR HOME -->
-  <section class="py-20 lg:py-28 bg-bglight" aria-labelledby="which-boiler-heading">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-14">
-        <p class="text-brand font-heading font-bold text-sm uppercase tracking-widest mb-3">Choosing a Boiler</p>
-        <h2 id="which-boiler-heading" class="text-3xl lg:text-4xl font-heading font-extrabold text-navy mb-4">Which Boiler Suits Your Home?</h2>
-        <p class="text-gray-500 max-w-2xl mx-auto font-body text-lg leading-relaxed">There isn't a single "best" boiler — the right choice depends on your property, how many bathrooms you run at once, and what's already installed. Here's how we work it out.</p>
-      </div>
+  <!-- TOOL -->
+  <section class="py-16 lg:py-20 bg-bglight" aria-labelledby="tool-heading">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="tool-heading" class="sr-only">Boiler selector tool</h2>
 
-      <div class="grid sm:grid-cols-3 gap-6 mb-10">
-        <article class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <div class="w-12 h-12 bg-brand/10 rounded-xl flex items-center justify-center mb-4" aria-hidden="true">
-            <svg class="w-6 h-6 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="18" rx="2"/><path stroke-linecap="round" stroke-linejoin="round" d="M9 8h6M9 12h6M9 16h3"/></svg>
-          </div>
-          <h3 class="text-base font-heading font-bold text-navy mb-2">Combi</h3>
-          <p class="text-gray-500 font-body text-sm leading-relaxed">Heats water on demand, straight from the mains — no tank, no cylinder. Best for flats, small-to-medium houses and any property short on airing cupboard or loft space. Simplest to install and the most common choice we fit on Wirral.</p>
-        </article>
-        <article class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <div class="w-12 h-12 bg-orange-50 rounded-xl flex items-center justify-center mb-4" aria-hidden="true">
-            <svg class="w-6 h-6 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
-          </div>
-          <h3 class="text-base font-heading font-bold text-navy mb-2">System</h3>
-          <p class="text-gray-500 font-body text-sm leading-relaxed">Works with a hot water cylinder but takes its cold feed and expansion from sealed components built into the boiler, so there's no loft tank. Suits homes with two or more bathrooms where several taps or showers run at the same time.</p>
-        </article>
-        <article class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-4" aria-hidden="true">
-            <svg class="w-6 h-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M5 15a3 3 0 013-3h8a3 3 0 013 3v3H5v-3z"/><path stroke-linecap="round" stroke-linejoin="round" d="M7 12V6a2 2 0 012-2h6a2 2 0 012 2v6"/></svg>
-          </div>
-          <h3 class="text-base font-heading font-bold text-navy mb-2">Conventional (heat-only)</h3>
-          <p class="text-gray-500 font-body text-sm leading-relaxed">The traditional setup with a loft cold water tank and a hot water cylinder. Usually retained where we're replacing like-for-like in an older property, or where mains pressure or flow rate rules out a combi or system boiler.</p>
-        </article>
-      </div>
+      <div class="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 lg:p-10">
 
-      <div class="bg-white rounded-2xl border border-gray-100 p-7 lg:p-8">
-        <h3 class="text-lg font-heading font-bold text-navy mb-4">Quick chooser by house type</h3>
-        <div class="grid sm:grid-cols-3 gap-6">
-          <div>
-            <p class="font-heading font-bold text-navy text-sm mb-1">Terraced house, one bathroom</p>
-            <p class="text-gray-500 font-body text-sm leading-relaxed">A combi almost always makes sense — compact, no tanks to find room for, and plenty of hot water for one bathroom running at a time.</p>
-          </div>
-          <div>
-            <p class="font-heading font-bold text-navy text-sm mb-1">Semi-detached, one or two bathrooms</p>
-            <p class="text-gray-500 font-body text-sm leading-relaxed">Combi still usually works well here. If mains pressure is weak or you regularly run two showers together, a system boiler with a cylinder is worth considering.</p>
-          </div>
-          <div>
-            <p class="font-heading font-bold text-navy text-sm mb-1">4-bed with two bathrooms</p>
-            <p class="text-gray-500 font-body text-sm leading-relaxed">A system boiler with an unvented cylinder is generally the better fit — strong flow to two bathrooms simultaneously without the hot water dropping off.</p>
-          </div>
+        <!-- progress -->
+        <div class="flex items-center justify-center gap-2 mb-8" role="presentation">
+          <span class="progress-dot w-2.5 h-2.5 rounded-full bg-brand" data-dot="1"></span>
+          <span class="progress-dot w-2.5 h-2.5 rounded-full bg-gray-200" data-dot="2"></span>
+          <span class="progress-dot w-2.5 h-2.5 rounded-full bg-gray-200" data-dot="3"></span>
+          <span class="progress-dot w-2.5 h-2.5 rounded-full bg-gray-200" data-dot="4"></span>
+          <span class="progress-dot w-2.5 h-2.5 rounded-full bg-gray-200" data-dot="result"></span>
         </div>
-        <p class="text-gray-500 font-body text-sm leading-relaxed mt-5">These are starting points, not rules — the only way to know for certain is a proper survey of your pipework, mains pressure and hot water demand, which is exactly what we do before quoting.</p>
-        <p class="text-gray-500 font-body text-sm leading-relaxed mt-3">Prefer to answer a few quick questions instead? Try our <a href="boiler-selector-wirral.html" class="text-brand font-semibold hover:underline">free boiler selector tool</a>.</p>
+
+        <form id="selector-form" novalidate>
+
+          <!-- STEP 1 — bathrooms -->
+          <div class="step active" data-step="1">
+            <p class="text-brand font-heading font-bold text-xs uppercase tracking-widest mb-2 text-center">Question 1 of 4</p>
+            <h3 class="text-xl lg:text-2xl font-heading font-extrabold text-navy mb-6 text-center">How many bathrooms need hot water at the same time?</h3>
+            <div class="grid gap-3">
+              <label class="opt block">
+                <input type="radio" name="bathrooms" value="1">
+                <span class="opt-card block border-2 border-gray-200 rounded-xl p-4 font-body font-semibold text-navy">Just the one — a shower or bath running on its own</span>
+              </label>
+              <label class="opt block">
+                <input type="radio" name="bathrooms" value="2">
+                <span class="opt-card block border-2 border-gray-200 rounded-xl p-4 font-body font-semibold text-navy">Two — e.g. bathroom and an en-suite, sometimes used together</span>
+              </label>
+              <label class="opt block">
+                <input type="radio" name="bathrooms" value="3">
+                <span class="opt-card block border-2 border-gray-200 rounded-xl p-4 font-body font-semibold text-navy">Three or more running at once</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- STEP 2 — mains pressure -->
+          <div class="step" data-step="2">
+            <p class="text-brand font-heading font-bold text-xs uppercase tracking-widest mb-2 text-center">Question 2 of 4</p>
+            <h3 class="text-xl lg:text-2xl font-heading font-extrabold text-navy mb-2 text-center">What's your mains water pressure like?</h3>
+            <p class="text-gray-500 font-body text-sm text-center mb-6">Not sure? Weak pressure usually shows up as a slow-filling kettle or a bath that takes ages.</p>
+            <div class="grid gap-3">
+              <label class="opt block">
+                <input type="radio" name="pressure" value="strong">
+                <span class="opt-card block border-2 border-gray-200 rounded-xl p-4 font-body font-semibold text-navy">Strong — good flow at every tap</span>
+              </label>
+              <label class="opt block">
+                <input type="radio" name="pressure" value="weak">
+                <span class="opt-card block border-2 border-gray-200 rounded-xl p-4 font-body font-semibold text-navy">Weak, inconsistent, or I'm not sure</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- STEP 3 — property size -->
+          <div class="step" data-step="3">
+            <p class="text-brand font-heading font-bold text-xs uppercase tracking-widest mb-2 text-center">Question 3 of 4</p>
+            <h3 class="text-xl lg:text-2xl font-heading font-extrabold text-navy mb-6 text-center">Which best describes your property?</h3>
+            <div class="grid gap-3">
+              <label class="opt block">
+                <input type="radio" name="size" value="small">
+                <span class="opt-card block border-2 border-gray-200 rounded-xl p-4 font-body font-semibold text-navy">Flat or terraced house</span>
+              </label>
+              <label class="opt block">
+                <input type="radio" name="size" value="medium">
+                <span class="opt-card block border-2 border-gray-200 rounded-xl p-4 font-body font-semibold text-navy">Semi-detached</span>
+              </label>
+              <label class="opt block">
+                <input type="radio" name="size" value="large">
+                <span class="opt-card block border-2 border-gray-200 rounded-xl p-4 font-body font-semibold text-navy">Large or detached (4+ bedrooms)</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- STEP 4 — current setup -->
+          <div class="step" data-step="4">
+            <p class="text-brand font-heading font-bold text-xs uppercase tracking-widest mb-2 text-center">Question 4 of 4</p>
+            <h3 class="text-xl lg:text-2xl font-heading font-extrabold text-navy mb-6 text-center">What do you have at the moment?</h3>
+            <div class="grid gap-3">
+              <label class="opt block">
+                <input type="radio" name="current" value="combi">
+                <span class="opt-card block border-2 border-gray-200 rounded-xl p-4 font-body font-semibold text-navy">Combi boiler</span>
+              </label>
+              <label class="opt block">
+                <input type="radio" name="current" value="system">
+                <span class="opt-card block border-2 border-gray-200 rounded-xl p-4 font-body font-semibold text-navy">System boiler with a hot water cylinder</span>
+              </label>
+              <label class="opt block">
+                <input type="radio" name="current" value="conventional">
+                <span class="opt-card block border-2 border-gray-200 rounded-xl p-4 font-body font-semibold text-navy">Older setup — cold water tank in the loft, hot water cylinder</span>
+              </label>
+              <label class="opt block">
+                <input type="radio" name="current" value="unknown">
+                <span class="opt-card block border-2 border-gray-200 rounded-xl p-4 font-body font-semibold text-navy">Not sure, or no boiler installed yet</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- nav buttons -->
+          <div class="flex items-center justify-between mt-8">
+            <button type="button" id="btn-back" class="font-heading font-bold text-sm text-gray-400 hover:text-navy transition-colors hidden">&larr; Back</button>
+            <span class="flex-1"></span>
+            <button type="button" id="btn-next" class="inline-flex items-center justify-center gap-2 bg-brand hover:bg-brand2 text-white font-heading font-bold px-8 py-3.5 rounded-xl transition-colors duration-200 disabled:opacity-40 disabled:cursor-not-allowed" disabled>Next</button>
+          </div>
+        </form>
+
+        <!-- RESULT -->
+        <div class="step" data-step="result" id="result-panel">
+          <div class="text-center mb-6">
+            <div class="inline-flex items-center gap-2 bg-green-50 border border-green-200 text-green-700 text-xs font-heading font-bold px-3 py-1.5 rounded-full mb-4 uppercase tracking-wider">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              Your Result
+            </div>
+            <h3 id="result-title" class="text-2xl lg:text-3xl font-heading font-extrabold text-navy mb-4">&nbsp;</h3>
+            <p id="result-reason" class="text-gray-600 font-body text-base leading-relaxed max-w-xl mx-auto"></p>
+          </div>
+          <div id="result-links" class="flex flex-wrap items-center justify-center gap-3 mb-8"></div>
+          <div class="bg-bglight rounded-xl p-5 mb-8">
+            <p class="text-gray-500 font-body text-sm leading-relaxed"><strong class="text-navy">This is a starting point, not a fixed spec.</strong> The only way to know for certain is a proper survey of your pipework, mains pressure and hot water demand — which is exactly what we do before quoting, at no cost and with no obligation.</p>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="tel:07450237593" class="inline-flex items-center justify-center gap-2 bg-flame hover:bg-orange-500 text-white font-heading font-bold px-8 py-4 rounded-xl transition-colors duration-200 cta-pulse">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              Call 07450 237593
+            </a>
+            <a href="contact.html" class="inline-flex items-center justify-center gap-2 bg-brand hover:bg-brand2 text-white font-heading font-bold px-8 py-4 rounded-xl transition-colors duration-200">Get a Free Fixed Quote</a>
+          </div>
+          <p class="text-center mt-6">
+            <button type="button" id="btn-restart" class="font-heading font-semibold text-sm text-gray-400 hover:text-navy transition-colors underline">Start again</button>
+          </p>
+        </div>
+
+        <noscript>
+          <div class="text-center py-8">
+            <p class="text-gray-600 font-body mb-4">This tool needs JavaScript enabled to run. In the meantime, our <a href="boiler-installation-wirral.html" class="text-brand font-semibold hover:underline">boiler installation page</a> covers how to choose between combi, system and conventional boilers, or just give us a call.</p>
+            <a href="tel:07450237593" class="inline-flex items-center justify-center gap-2 bg-brand hover:bg-brand2 text-white font-heading font-bold px-8 py-4 rounded-xl">Call 07450 237593</a>
+          </div>
+        </noscript>
       </div>
+
+      <p class="text-gray-400 font-body text-xs text-center mt-6">Your answers stay on this page — nothing is sent anywhere or stored until you choose to call or send a quote request.</p>
     </div>
   </section>
 
-  <!-- COST -->
-  <section class="py-16 lg:py-20 bg-white" aria-labelledby="cost-heading">
-    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <p class="text-brand font-heading font-bold text-sm uppercase tracking-widest mb-3">Pricing</p>
-      <h2 id="cost-heading" class="text-3xl lg:text-4xl font-heading font-extrabold text-navy mb-4">What a Boiler Installation Actually Costs on Wirral</h2>
-      <p class="text-gray-500 font-body text-lg leading-relaxed mb-6">We're not going to quote you a figure on this page — the honest answer is that it depends on the boiler you need, whether you're moving it, the state of your existing pipework and controls, and the property itself. Two houses on the same street can need very different jobs.</p>
-      <p class="text-gray-500 font-body text-lg leading-relaxed mb-8">We've put together a full breakdown of what drives the price up or down, with realistic ranges by boiler type, on our <a href="boiler-prices-wirral.html" class="text-brand font-semibold hover:underline">boiler prices Wirral</a> page. What we can promise here: every quote is a fixed price, agreed before we start, with no surprises on the invoice.</p>
-      <a href="tel:07450237593" class="inline-flex items-center justify-center gap-2 bg-brand hover:bg-brand2 text-white font-heading font-bold px-8 py-4 rounded-xl transition-colors duration-200 cta-pulse">Call for a Free Fixed Quote</a>
-    </div>
-  </section>
-
-  <!-- PROCESS -->
-  <section class="py-20 lg:py-28 bg-bglight" aria-labelledby="process-heading">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-14">
-        <p class="text-brand font-heading font-bold text-sm uppercase tracking-widest mb-3">How It Works</p>
-        <h2 id="process-heading" class="text-3xl lg:text-4xl font-heading font-extrabold text-navy mb-4">Our Installation Process, Day by Day</h2>
-      </div>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <article class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <div class="w-10 h-10 bg-brand text-white rounded-full flex items-center justify-center font-heading font-bold mb-4">1</div>
-          <h3 class="text-base font-heading font-bold text-navy mb-2">Survey</h3>
-          <p class="text-gray-500 font-body text-sm leading-relaxed">We come out, check mains pressure and flow, look at your existing pipework, flue route and controls, and talk through what you actually need — not what's easiest to sell.</p>
-        </article>
-        <article class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <div class="w-10 h-10 bg-brand text-white rounded-full flex items-center justify-center font-heading font-bold mb-4">2</div>
-          <h3 class="text-base font-heading font-bold text-navy mb-2">Fit Day</h3>
-          <p class="text-gray-500 font-body text-sm leading-relaxed">Old boiler removed, new one fitted, pipework and flue altered where needed. Most straightforward like-for-like combi swaps are completed in a day; relocations or system changes take longer, which we agree upfront.</p>
-        </article>
-        <article class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <div class="w-10 h-10 bg-brand text-white rounded-full flex items-center justify-center font-heading font-bold mb-4">3</div>
-          <h3 class="text-base font-heading font-bold text-navy mb-2">Commissioning &amp; Handover</h3>
-          <p class="text-gray-500 font-body text-sm leading-relaxed">The boiler is commissioned to the manufacturer's instructions, the system is checked for leaks and correct operation, and we run you through the controls before we leave.</p>
-        </article>
-        <article class="service-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <div class="w-10 h-10 bg-brand text-white rounded-full flex items-center justify-center font-heading font-bold mb-4">4</div>
-          <h3 class="text-base font-heading font-bold text-navy mb-2">Building Regs Notification</h3>
-          <p class="text-gray-500 font-body text-sm leading-relaxed">As Gas Safe registered engineers we notify Building Control ourselves through the Gas Safe scheme, and you receive a Building Regulations compliance certificate — no separate application needed on your part.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- SYSTEM UPGRADE -->
-  <section class="py-20 bg-white" aria-labelledby="upgrade-heading">
+  <!-- THE THREE TYPES, BRIEFLY -->
+  <section class="py-16 lg:py-20 bg-white" aria-labelledby="types-heading">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
-        <p class="text-brand font-heading font-bold text-sm uppercase tracking-widest mb-3">Beyond the Boiler</p>
-        <h2 id="upgrade-heading" class="text-3xl lg:text-4xl font-heading font-extrabold text-navy mb-4">Do You Need a System Upgrade Too?</h2>
-        <p class="text-gray-500 max-w-2xl mx-auto font-body text-lg leading-relaxed">A new boiler dropped onto an old, unprotected system is often a boiler that fails early. We'll flag anything worth doing at the same time — nothing gets added without you agreeing to it first.</p>
+        <p class="text-brand font-heading font-bold text-sm uppercase tracking-widest mb-3">The Basics</p>
+        <h2 id="types-heading" class="text-3xl lg:text-4xl font-heading font-extrabold text-navy mb-4">Combi, System or Conventional — the Short Version</h2>
+        <p class="text-gray-500 max-w-2xl mx-auto font-body text-lg leading-relaxed">The tool above weighs these against your bathrooms, pressure and property size. For the fuller explanation, including the process and what a survey covers, see our <a href="boiler-installation-wirral.html" class="text-brand font-semibold hover:underline">boiler installation page</a>.</p>
       </div>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="bg-bglight rounded-2xl p-6 border border-gray-100">
-          <h3 class="text-sm font-heading font-bold text-navy mb-2">Magnetic filter</h3>
-          <p class="text-gray-500 font-body text-sm leading-relaxed">Fitted on the return pipe to catch magnetite before it reaches the new boiler's heat exchanger. Most manufacturers require one to validate the warranty.</p>
-        </div>
-        <div class="bg-bglight rounded-2xl p-6 border border-gray-100">
-          <h3 class="text-sm font-heading font-bold text-navy mb-2">TRVs</h3>
-          <p class="text-gray-500 font-body text-sm leading-relaxed">Thermostatic radiator valves let you control room-by-room temperature and help a modern boiler modulate properly, rather than short-cycling.</p>
-        </div>
-        <div class="bg-bglight rounded-2xl p-6 border border-gray-100">
-          <h3 class="text-sm font-heading font-bold text-navy mb-2">Cylinder</h3>
-          <p class="text-gray-500 font-body text-sm leading-relaxed">Switching to a system boiler often means fitting or replacing an unvented cylinder — we size it to your household's actual hot water demand.</p>
-        </div>
-        <div class="bg-bglight rounded-2xl p-6 border border-gray-100">
-          <h3 class="text-sm font-heading font-bold text-navy mb-2">Gas run resize</h3>
-          <p class="text-gray-500 font-body text-sm leading-relaxed">Older gas pipework is sometimes undersized for a new, more powerful boiler. We check the gas rate and upsize the run where it's needed for safe, correct operation.</p>
-        </div>
+      <div class="grid sm:grid-cols-3 gap-6">
+        <article class="service-card bg-bglight rounded-2xl p-6 border border-gray-100">
+          <h3 class="text-base font-heading font-bold text-navy mb-2">Combi</h3>
+          <p class="text-gray-500 font-body text-sm leading-relaxed">One unit, no tanks or cylinder, heats water on demand from the mains. Straightforward to install and the most common fit for one-bathroom homes.</p>
+        </article>
+        <article class="service-card bg-bglight rounded-2xl p-6 border border-gray-100">
+          <h3 class="text-base font-heading font-bold text-navy mb-2">System + cylinder</h3>
+          <p class="text-gray-500 font-body text-sm leading-relaxed">Stores hot water under mains pressure in a cylinder, so two or more bathrooms can run together without one going cold. See our <a href="unvented-cylinder-wirral.html" class="text-brand font-semibold hover:underline">unvented cylinder page</a>.</p>
+        </article>
+        <article class="service-card bg-bglight rounded-2xl p-6 border border-gray-100">
+          <h3 class="text-base font-heading font-bold text-navy mb-2">Conventional</h3>
+          <p class="text-gray-500 font-body text-sm leading-relaxed">The traditional loft tank plus cylinder setup — sometimes the right call where mains pressure genuinely rules out the other two, or on a like-for-like replacement.</p>
+        </article>
       </div>
-    </div>
-  </section>
-
-  <!-- SOFT WATER / SLUDGE -->
-  <section class="py-20 lg:py-28 bg-navy" aria-labelledby="soft-water-heading">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <p class="text-brand2 font-heading font-bold text-sm uppercase tracking-widest mb-3 text-center">A Local Difference That Actually Matters</p>
-      <h2 id="soft-water-heading" class="text-3xl lg:text-4xl font-heading font-extrabold text-white mb-6 text-center">Soft Water on Wirral: Why Sludge, Not Limescale, Kills Boilers Here</h2>
-      <div class="text-gray-300 font-body text-lg leading-relaxed space-y-4">
-        <p>Most boiler advice online is written for hard-water areas, and it shows — half of it is about descaling. Wirral and the wider Merseyside area sit on soft water, roughly 73ppm compared with a UK average nearer 230ppm. That's a genuinely different water chemistry to what most national boiler content assumes.</p>
-        <p>Soft water means limescale build-up in your pipework and heat exchanger isn't the main threat to your heating system out here. What we actually find failing boilers and blocking pumps on Wirral jobs is magnetite — black iron oxide sludge that forms inside a sealed central heating system as steel radiators and pipework slowly corrode from the inside. Left unchecked it settles in radiators, clogs pumps, blocks heat exchangers, and causes exactly the symptoms people mistake for scale: cold spots on radiators, banging or kettling noises, and boilers cutting out.</p>
-        <p>It's a genuine local difference that most installers don't bother explaining, because the standard script is written for hard water. On a Wirral system, the real long-term protection is a clean system at installation, a magnetic filter to catch what forms afterwards, and the right inhibitor — not scale reducers aimed at a problem this area doesn't really have.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- 2035 PHASE-OUT MYTH BUST -->
-  <section class="py-20 bg-bglight" aria-labelledby="phaseout-heading">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-8">
-        <p class="text-brand font-heading font-bold text-sm uppercase tracking-widest mb-3">Setting the Record Straight</p>
-        <h2 id="phaseout-heading" class="text-3xl lg:text-4xl font-heading font-extrabold text-navy mb-4">Do You Still Need a Gas Boiler in 2026?</h2>
-      </div>
-      <div class="text-gray-600 font-body text-lg leading-relaxed space-y-4">
-        <p>There was a proposal at one point to phase out gas boilers in existing homes by 2035. It's been widely misreported as settled policy, and we still get asked whether it's "worth" fitting a gas boiler now. It was dropped as part of the Warm Homes Plan announced in January 2026 — the phase-out target for existing properties is not government policy.</p>
-        <p>The current legal position is straightforward: it remains fully legal to install a replacement gas boiler in an existing home today, and there is no date by which you're required to switch to a heat pump or any other technology. If your existing boiler is failing or has been condemned, replacing it like-for-like with a modern gas boiler is a legitimate, sensible option, not something you need to justify.</p>
-        <p>That doesn't mean a heat pump is never worth considering — for the right property, insulation level and budget it can be a good long-term choice, and it's a conversation we're happy to have. But if you've been holding off on a boiler replacement because of rumours about a looming ban, that pressure doesn't currently exist.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- WARRANTIES -->
-  <section class="py-20 bg-white" aria-labelledby="warranty-heading">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-8">
-        <p class="text-brand font-heading font-bold text-sm uppercase tracking-widest mb-3">Protecting Your Investment</p>
-        <h2 id="warranty-heading" class="text-3xl lg:text-4xl font-heading font-extrabold text-navy mb-4">Warranties and What Voids Them</h2>
-      </div>
-      <div class="text-gray-600 font-body text-lg leading-relaxed space-y-4">
-        <p>Every new boiler comes with a manufacturer's warranty, and the length varies by manufacturer and model — we'll tell you exactly what applies to the boiler we're recommending before you commit to anything. What we can tell you now is how those warranties are commonly lost, because it's rarely the boiler itself that's the problem.</p>
-        <p>The most common cause of a voided warranty is a missing or incorrect magnetic filter, or a system that wasn't properly flushed and dosed with inhibitor before the new boiler went in — manufacturers can and do reject claims where system debris has damaged the heat exchanger. Annual servicing by a Gas Safe registered engineer is usually a warranty condition too, so a gap in your service history can be enough to invalidate a claim even on an otherwise healthy boiler.</p>
-        <p>We register every installation with the manufacturer at the point of commissioning and give you the paperwork to keep, so the warranty is actually valid from day one — not something you find out is missing when you need to make a claim.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- MID-PAGE CTA -->
-  <section class="py-16 bg-navy" aria-labelledby="cta-heading">
-    <div class="max-w-3xl mx-auto px-4 text-center">
-      <h2 id="cta-heading" class="text-2xl lg:text-3xl font-heading font-extrabold text-white mb-4">Ready to Talk Through Your Options?</h2>
-      <p class="text-gray-400 font-body mb-8">Call 07450 237593 for a straight answer, or use our contact form for a free fixed quote on your boiler installation.</p>
-      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-        <a href="tel:07450237593" class="inline-flex items-center justify-center gap-2 bg-flame hover:bg-orange-500 text-white font-heading font-bold px-8 py-4 rounded-xl transition-colors duration-200 cta-pulse">
-          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-          Call 07450 237593
-        </a>
-        <a href="contact.html" class="inline-flex items-center justify-center gap-2 bg-brand hover:bg-brand2 text-white font-heading font-bold px-8 py-4 rounded-xl transition-colors duration-200 cta-pulse">
-          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-          Get a Free Fixed Quote
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- RELATED SERVICES -->
-  <section class="py-16 bg-bglight" aria-labelledby="related-heading">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 id="related-heading" class="text-2xl font-heading font-extrabold text-navy mb-6 text-center">Related Services</h2>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
-        <a href="boiler-servicing-wirral.html" class="bg-white rounded-xl border border-gray-100 p-5 hover:border-brand transition-colors font-heading font-bold text-navy text-sm">Boiler Servicing</a>
-        <a href="combi-boiler-conversion-wirral.html" class="bg-white rounded-xl border border-gray-100 p-5 hover:border-brand transition-colors font-heading font-bold text-navy text-sm">Combi Boiler Conversion</a>
-        <a href="radiators-and-central-heating-wirral.html" class="bg-white rounded-xl border border-gray-100 p-5 hover:border-brand transition-colors font-heading font-bold text-navy text-sm">Radiators &amp; Central Heating</a>
-        <a href="power-flushing-wirral.html" class="bg-white rounded-xl border border-gray-100 p-5 hover:border-brand transition-colors font-heading font-bold text-navy text-sm">Power Flushing</a>
-      </div>
-      <p class="text-center font-body text-sm text-gray-500 mt-6">See our full range on the <a href="services.html" class="text-brand font-semibold hover:underline">services page</a>, or find out more <a href="about.html" class="text-brand font-semibold hover:underline">about R.J. Sayle</a>.</p>
     </div>
   </section>
 
   <!-- FAQ -->
-  <section class="py-20 lg:py-28 bg-white" aria-labelledby="faq-heading">
+  <section class="py-16 lg:py-20 bg-bglight" aria-labelledby="faq-heading">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-14">
+      <div class="text-center mb-12">
         <p class="text-brand font-heading font-bold text-sm uppercase tracking-widest mb-3">Common Questions</p>
-        <h2 id="faq-heading" class="text-3xl lg:text-4xl font-heading font-extrabold text-navy mb-4">Frequently Asked Questions</h2>
-        <p class="text-gray-500 font-body">Can't find your answer? <a href="tel:07450237593" class="text-brand font-semibold hover:underline">Call us on 07450 237593</a></p>
+        <h2 id="faq-heading" class="text-3xl lg:text-4xl font-heading font-extrabold text-navy">Boiler Selector FAQs</h2>
       </div>
+
       <div class="space-y-4">
 
-        <details class="group bg-bglight rounded-2xl border border-gray-100 overflow-hidden">
+        <details class="group bg-white rounded-2xl border border-gray-100 overflow-hidden">
           <summary class="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer list-none font-heading font-bold text-navy text-sm lg:text-base hover:bg-gray-50 transition-colors">
-            <span>How much does a new boiler cost in Wirral in 2026?</span>
+            <span>Is the result an exact quote?</span>
             <svg class="w-5 h-5 text-brand flex-shrink-0 transition-transform duration-200 group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
           </summary>
           <div class="px-6 pb-5 text-gray-500 font-body text-sm leading-relaxed">
-            <p>There's no single fixed figure — it depends on the boiler type, whether it's a like-for-like swap or a conversion, and the condition of your existing pipework and controls. We give a free, no-obligation fixed quote after a proper survey, so you know the exact cost before any work starts. For an idea of what drives the price, see our <a href="boiler-prices-wirral.html" class="text-brand hover:underline">boiler prices Wirral</a> page.</p>
+            <p>No — it's a boiler <em>type</em> recommendation based on four quick answers, not a priced quote. We don't publish instant prices because the real cost depends on your existing pipework, controls and the property itself, which we can only assess properly on a survey. The tool gets you talking to us about the right thing, not a number pulled out of thin air.</p>
           </div>
         </details>
 
-        <details class="group bg-bglight rounded-2xl border border-gray-100 overflow-hidden">
+        <details class="group bg-white rounded-2xl border border-gray-100 overflow-hidden">
           <summary class="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer list-none font-heading font-bold text-navy text-sm lg:text-base hover:bg-gray-50 transition-colors">
-            <span>How long does a boiler installation take?</span>
+            <span>How accurate is the recommendation?</span>
             <svg class="w-5 h-5 text-brand flex-shrink-0 transition-transform duration-200 group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
           </summary>
           <div class="px-6 pb-5 text-gray-500 font-body text-sm leading-relaxed">
-            <p>A straightforward like-for-like combi swap is typically completed in a single day. Jobs involving relocating the boiler, converting boiler type, or upgrading pipework and the flue route usually take longer — we'll give you a realistic timescale at the survey stage, before you commit to anything.</p>
+            <p>It's built on the same reasoning we use on site — bathroom count, mains pressure and property size are the biggest factors in choosing a boiler type. It's a genuinely useful starting point for most homes, but it can't measure your actual flow rate or inspect your pipework, so some answers come back as "worth a quick chat" rather than a firm pick. That's deliberate — we'd rather say that honestly than guess.</p>
           </div>
         </details>
 
-        <details class="group bg-bglight rounded-2xl border border-gray-100 overflow-hidden">
+        <details class="group bg-white rounded-2xl border border-gray-100 overflow-hidden">
           <summary class="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer list-none font-heading font-bold text-navy text-sm lg:text-base hover:bg-gray-50 transition-colors">
-            <span>Do I need to upgrade my radiators or pipework when I change boiler?</span>
+            <span>What happens after I get my result?</span>
             <svg class="w-5 h-5 text-brand flex-shrink-0 transition-transform duration-200 group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
           </summary>
           <div class="px-6 pb-5 text-gray-500 font-body text-sm leading-relaxed">
-            <p>Not always, but it's worth checking. If your system is old or has never been flushed, we'll usually recommend a power flush and a magnetic filter before fitting the new boiler, to protect it from sludge already in the system. Radiators and pipework are only replaced where they're genuinely undersized, damaged, or can't support the new boiler properly — we won't recommend work you don't need.</p>
+            <p>Call <a href="tel:07450237593" class="text-brand font-semibold hover:underline">07450 237593</a> or use the "Get a Free Fixed Quote" button to send your details through the contact page. Either way you'll speak to Russ Sayle directly — not a call centre — to arrange a survey. The survey confirms (or corrects) the tool's suggestion and is what the fixed price is based on.</p>
           </div>
         </details>
 
-        <details class="group bg-bglight rounded-2xl border border-gray-100 overflow-hidden">
+        <details class="group bg-white rounded-2xl border border-gray-100 overflow-hidden">
           <summary class="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer list-none font-heading font-bold text-navy text-sm lg:text-base hover:bg-gray-50 transition-colors">
-            <span>Will you register the installation with Gas Safe and Building Control?</span>
+            <span>Do you install whichever boiler type the tool recommends?</span>
             <svg class="w-5 h-5 text-brand flex-shrink-0 transition-transform duration-200 group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
           </summary>
           <div class="px-6 pb-5 text-gray-500 font-body text-sm leading-relaxed">
-            <p>Yes. As a Gas Safe registered engineer, every gas boiler installation we complete is notified to Building Control through the Gas Safe scheme, and you're issued with a Building Regulations compliance certificate — there's nothing further you need to arrange yourself.</p>
+            <p>We install combi, system and conventional boilers, plus unvented cylinders where a system boiler needs one. If the survey turns up something the tool couldn't know about — genuinely weak mains flow, an odd pipe run, a conservation-area constraint — we'll say so and explain why a different option suits your home better.</p>
           </div>
         </details>
 
-        <details class="group bg-bglight rounded-2xl border border-gray-100 overflow-hidden">
-          <summary class="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer list-none font-heading font-bold text-navy text-sm lg:text-base hover:bg-gray-50 transition-colors">
-            <span>Should I still fit a gas boiler, or wait for a heat pump?</span>
-            <svg class="w-5 h-5 text-brand flex-shrink-0 transition-transform duration-200 group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-          </summary>
-          <div class="px-6 pb-5 text-gray-500 font-body text-sm leading-relaxed">
-            <p>It's fully legal to fit a replacement gas boiler in an existing home today — the proposed 2035 phase-out for existing properties was dropped as part of the Warm Homes Plan in January 2026, so there's no deadline forcing a switch. A heat pump can be a good option for the right property, but if your current boiler needs replacing now, a gas boiler remains a legitimate, straightforward choice. We're happy to talk through both options.</p>
-          </div>
-        </details>
+      </div>
+    </div>
+  </section>
 
+  <!-- CTA -->
+  <section class="py-12 bg-navy">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h2 class="text-2xl font-heading font-extrabold text-white mb-3">Ready to talk it through?</h2>
+      <p class="text-gray-400 font-body mb-6">Call 07450 237593 — speak directly to Russ Sayle, no call centre.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="tel:07450237593" class="inline-flex items-center justify-center gap-2 bg-flame hover:bg-orange-500 text-white font-heading font-bold px-7 py-3.5 rounded-xl transition-colors duration-200 cta-pulse">
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          Call 07450 237593
+        </a>
+        <a href="contact.html" class="inline-flex items-center justify-center gap-2 bg-brand hover:bg-brand2 text-white font-heading font-bold px-7 py-3.5 rounded-xl transition-colors duration-200">Get a Free Quote</a>
       </div>
     </div>
   </section>
@@ -819,7 +784,7 @@
     <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
       <div class="lg:col-span-2">
         <div class="flex items-center gap-3 mb-4">
-          <img src="logo.avif" alt="R.J. Sayle Plumbing &amp; Heating logo" width="36" height="36" class="rounded-full object-contain" loading="lazy">
+          <img src="logo.avif" alt="R.J. Sayle Plumbing &amp; Heating" width="36" height="36" class="rounded-full object-contain" loading="lazy">
           <div><p class="text-white font-heading font-bold text-base">R.J. SAYLE</p><p class="text-blue-400 text-xs font-heading tracking-widest uppercase">Plumbing &amp; Heating</p></div>
         </div>
         <p class="font-body text-sm leading-relaxed mb-4 max-w-sm">Commercial and domestic plumbing &amp; heating contractors. Gas Safe registered. Fixed-price contracts. Serving the Wirral and nationwide.</p>
@@ -831,12 +796,11 @@
       <nav aria-label="Footer services">
         <h3 class="text-white font-heading font-bold text-sm mb-4 uppercase tracking-wider">Services</h3>
         <ul class="space-y-2 font-body text-sm">
+          <li><a href="boiler-selector-wirral.html" class="hover:text-white transition-colors">Boiler Selector Tool</a></li>
           <li><a href="boiler-installation-wirral.html" class="hover:text-white transition-colors">Boiler Installations</a></li>
-          <li><a href="services.html" class="hover:text-white transition-colors">Unvented Cylinders</a></li>
-          <li><a href="services.html" class="hover:text-white transition-colors">Radiator Installation</a></li>
+          <li><a href="unvented-cylinder-wirral.html" class="hover:text-white transition-colors">Unvented Cylinders</a></li>
           <li><a href="commercial-plumbing-heating-wirral.html" class="hover:text-white transition-colors">Commercial Plumbing</a></li>
           <li><a href="landlord-services-wirral.html" class="hover:text-white transition-colors">Landlord Services</a></li>
-          <li><a href="services.html" class="hover:text-white transition-colors">Boosted Cold Water</a></li>
         </ul>
       </nav>
       <nav aria-label="Footer quick links">
@@ -880,6 +844,138 @@
     });
   });
 </script>
+
+<script>
+(function () {
+  const STEPS = ['1', '2', '3', '4', 'result'];
+  const form = document.getElementById('selector-form');
+  const stepEls = {};
+  document.querySelectorAll('.step').forEach(function (el) {
+    stepEls[el.getAttribute('data-step')] = el;
+  });
+  const dots = {};
+  document.querySelectorAll('.progress-dot').forEach(function (el) {
+    dots[el.getAttribute('data-dot')] = el;
+  });
+  const btnNext = document.getElementById('btn-next');
+  const btnBack = document.getElementById('btn-back');
+  const btnRestart = document.getElementById('btn-restart');
+  const resultPanel = document.getElementById('result-panel');
+
+  let current = 0; // index into STEPS, 0..3 are questions, 4 is result
+  const answers = { bathrooms: null, pressure: null, size: null, current: null };
+
+  function fieldForStep(i) {
+    return ['bathrooms', 'pressure', 'size', 'current'][i];
+  }
+
+  function updateDots() {
+    STEPS.forEach(function (s, i) {
+      const dot = dots[s];
+      if (!dot) return;
+      if (i < current) { dot.className = 'progress-dot w-2.5 h-2.5 rounded-full bg-green-500'; }
+      else if (i === current) { dot.className = 'progress-dot w-2.5 h-2.5 rounded-full bg-brand scale-125'; }
+      else { dot.className = 'progress-dot w-2.5 h-2.5 rounded-full bg-gray-200'; }
+    });
+  }
+
+  function showStep(i) {
+    STEPS.forEach(function (s) { stepEls[s].classList.remove('active'); });
+    stepEls[STEPS[i]].classList.add('active');
+    btnBack.classList.toggle('hidden', i === 0);
+    if (i < 4) {
+      form.style.display = '';
+      btnNext.style.display = '';
+      btnNext.textContent = i === 3 ? 'See My Recommendation' : 'Next';
+      btnNext.disabled = !answers[fieldForStep(i)];
+    } else {
+      form.querySelectorAll('.step').forEach(function(el){ el.classList.remove('active'); });
+      btnNext.style.display = 'none';
+      btnBack.classList.add('hidden');
+    }
+    updateDots();
+    resultPanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  form.addEventListener('change', function (e) {
+    if (e.target.name && answers.hasOwnProperty(e.target.name)) {
+      answers[e.target.name] = e.target.value;
+      if (current < 4) btnNext.disabled = !answers[fieldForStep(current)];
+    }
+  });
+
+  btnNext.addEventListener('click', function () {
+    if (current < 3) {
+      current++;
+      showStep(current);
+    } else if (current === 3) {
+      computeResult();
+      current = 4;
+      showStep(current);
+    }
+  });
+
+  btnBack.addEventListener('click', function () {
+    if (current > 0) { current--; showStep(current); }
+  });
+
+  btnRestart.addEventListener('click', function () {
+    Object.keys(answers).forEach(function (k) { answers[k] = null; });
+    form.reset();
+    current = 0;
+    showStep(current);
+  });
+
+  function computeResult() {
+    const b = parseInt(answers.bathrooms, 10);
+    const pressure = answers.pressure;
+    const size = answers.size;
+    const cur = answers.current;
+
+    let outcome; // 'combi' | 'system' | 'chat'
+    if (b >= 3) {
+      outcome = 'system';
+    } else if (b === 2) {
+      outcome = (size === 'large' || pressure === 'weak') ? 'system' : 'chat';
+    } else {
+      outcome = (pressure === 'weak' && size === 'large') ? 'chat' : 'combi';
+    }
+
+    const title = document.getElementById('result-title');
+    const reason = document.getElementById('result-reason');
+    const links = document.getElementById('result-links');
+    links.innerHTML = '';
+
+    function addLink(href, label) {
+      const a = document.createElement('a');
+      a.href = href;
+      a.className = 'inline-flex items-center gap-1 text-brand font-heading font-bold text-sm hover:underline';
+      a.textContent = label + ' →';
+      links.appendChild(a);
+    }
+
+    if (outcome === 'combi') {
+      title.textContent = 'A Combi Boiler Looks Like a Good Fit';
+      reason.textContent = 'With ' + (b === 1 ? 'one bathroom' : 'your bathrooms') + ' and ' + (size === 'small' ? 'a flat or terrace' : size === 'medium' ? 'a semi-detached property' : 'your property size') + ', a combi usually gives you plenty of hot water on demand without finding room for tanks or a cylinder.' + (pressure === 'weak' ? ' Your mains pressure sounded a little uncertain — worth confirming on a survey, as it affects combi performance more than any other factor.' : '');
+      addLink('boiler-installation-wirral.html', 'Boiler installation');
+      if (cur === 'system' || cur === 'conventional') addLink('combi-boiler-conversion-wirral.html', 'Converting to a combi');
+    } else if (outcome === 'system') {
+      title.textContent = 'A System Boiler with an Unvented Cylinder Looks Like the Better Fit';
+      reason.textContent = 'Running ' + (b >= 3 ? 'three or more bathrooms' : 'two bathrooms') + (pressure === 'weak' ? ' with weaker mains pressure' : size === 'large' ? ' in a larger property' : '') + ' is exactly where a stored, mains-pressure hot water supply earns its keep — strong flow to more than one bathroom at once, without one tap starving another.';
+      addLink('unvented-cylinder-wirral.html', 'Unvented cylinders');
+      addLink('boiler-installation-wirral.html', 'Boiler installation');
+    } else {
+      title.textContent = "Worth a Quick Chat — You're Close to the Line";
+      reason.textContent = "Your answers sit between a combi and a system boiler with a cylinder — genuinely common, and not something a 4-question tool can call with certainty. A quick conversation (or a free survey) settles it properly, usually by checking your actual mains flow rate.";
+      addLink('boiler-installation-wirral.html', 'Boiler installation');
+      addLink('unvented-cylinder-wirral.html', 'Unvented cylinders');
+    }
+  }
+
+  showStep(0);
+})();
+</script>
+
   <a href="tel:+447450237593" id="mobile-call-bar" class="md:hidden fixed bottom-0 inset-x-0 z-50 flex items-center justify-center gap-2 bg-brand text-white font-heading font-bold text-base py-3.5 shadow-[0_-4px_16px_rgba(0,0,0,0.15)]" aria-label="Call R.J. Sayle Plumbing and Heating on 07450 237593">
     <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
     Call Now: 07450 237593
