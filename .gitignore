@@ -1,0 +1,5 @@
+# Claude Code / local agent tooling — not part of the site
+.claude/
+.claude-flow/
+.mcp.json
+CLAUDE.md
